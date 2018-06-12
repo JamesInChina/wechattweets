@@ -1,0 +1,22 @@
+table{
+    color: #333;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-collapse: separate;
+    text-align: center;
+}
+table th{
+    border-left: 1px solid #eee;
+    text-align: center;
+    padding: 8px;
+    line-height: 20px;
+}
+table th td{}
+table tr{}
+table tr td{
+	border-left: 1px solid #eee;
+	border-top: 1px solid #eee;
+	padding: 8px;
+}
+table img{width:100px;}
+table tbody>tr:nth-child(odd)>td, .table-striped tbody>tr:nth-child(odd)>th{background-color: #f9f9f9;}
